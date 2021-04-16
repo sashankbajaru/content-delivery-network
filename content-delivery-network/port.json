@@ -1,0 +1,19 @@
+{
+	"replica": {
+				"origin": "4001X", "LB": "3001X", "client": "5001X", "waking_up_rep" :"2001X"
+			   },
+
+	"gateway": {
+			"origin": "10009" , "replica" : "40110", "backup_gateway": "20010"
+		   },
+
+	"LB" : {
+		"client" : "20009"
+	},
+
+	"origin":{
+		"client" : "50010",
+		"backup_gateway" : "50110",
+		"replica" : "45010"
+	}
+}
